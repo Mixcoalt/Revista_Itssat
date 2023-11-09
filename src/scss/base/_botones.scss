@@ -1,0 +1,19 @@
+.boton-amarillo{
+    @include boton($amarillo, block);
+}
+
+.boton-amarillo-inline{
+    @include boton($amarillo, inline-block);
+}
+
+.boton-verde{
+    @include boton($verde, inline-block);
+}
+
+.boton-revista{
+    @include boton($verde, block);
+
+    @include tablet{
+        @include boton($verde, inline-block);
+    }
+}
