@@ -1,0 +1,26 @@
+.contacto{
+    background-color: $verde;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    padding-bottom: 2rem;
+
+    .titulo-contacto{
+        font-weight: $bold;
+        color: $gris;
+    }
+    p{
+        font-weight: $black;
+        color: $gris;
+        text-align: center;
+    }
+
+    .subtitulo{
+        font-size: 2rem;
+        font-weight: $black;
+        color: $gris;
+        span{
+            font-weight: $bold;
+            color: $grisOscuro;
+        }
+    }
+}
