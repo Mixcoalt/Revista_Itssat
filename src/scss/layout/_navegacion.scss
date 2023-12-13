@@ -40,19 +40,21 @@
         }
     }
 
-    .logo{
-
-        width: 15rem;
-        height: 15rem;
-        @include tablet{
-            width: 10rem;
-            height: 10rem;
-        }
-    }
+  
    
 
    
   
+}
+
+.logo{
+
+    width: 15rem;
+    height: 15rem;
+    @include tablet{
+        width: 10rem;
+        height: 10rem;
+    }
 }
 
 .navegacion{
